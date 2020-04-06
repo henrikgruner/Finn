@@ -3,9 +3,25 @@ import bs4
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 import unicodecsv as csv
+import math
+
+
+def getPages():
+    URL = "https://www.finn.no/realestate/lettings/search.html?filters=&location=0.20016&location=1.20016.20318"
+
+    uClient = uReq(URL)
+    page_html = uClient.read()
+    uClient.close()
+
+    page_soup = soup(page_html, "html.parser")
+
+    container = page_soup.findAll("span", {"class": "u-strong"})
+    pages = container[0].contents[0]
+    return math.ceil(int(pages)/51)
 
 
 def getInfo():
+
     URL = "https://www.finn.no/realestate/lettings/search.html?filters=&location=0.20016&location=1.20016.20318&page="
     filename = "utleiebolig.csv"
     f = open(filename, "w", encoding='utf-8')
@@ -13,8 +29,8 @@ def getInfo():
     f.write("\n")
     headers = "ID, beskrivelse, adresse, link, Kvadratmeter, pris, utleier, type bolig\n"
     f.write(headers)
-
-    for i in range(1, 15):
+    pages = getPages()
+    for i in range(1, pages+1):
         printInfo(URL + str(i), f)
     print(i)
     f.close()

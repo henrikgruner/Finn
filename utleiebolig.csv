@@ -1,7 +1,7 @@
 SEP=,
 
 ID, beskrivelse, adresse, link, Kvadratmeter, pris, utleier, type bolig
-87499400,Modern apartment at Bakklandet available for rent,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=87499400,56 m²,14 500 kr,Privat,Leilighet
+173461575,Lekker leilighet i stille område,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=173461575,27 m²,6 900 kr,Privat,Hybel
 174925276,Ny -  strøken leilighet med balkong leies ut,Julianus Holms veg 26 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174925276,40 m²,11 000 kr,Privat,Leilighet
 174923458,Heimdal - Nylig oppgardert 2 - (3) roms leilighet - Terrasse og hage - Rolig område -  67 m2 BRA,Holtvegen 2B -  Heimdal, finn.no/realestate/lettings/ad.html?finnkode=174923458,65 m²,10 000 kr,Utleiemegleren Trondheim,Tomannsbolig
 174861518,MØLLENBERG - Moderne og sentral 2-roms -  ALT INKLUDERT og delvis møblert,Nonnegata -  18A -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174861518,46 m²,15 000 kr,Privat,Leilighet
@@ -52,7 +52,7 @@ ID, beskrivelse, adresse, link, Kvadratmeter, pris, utleier, type bolig
 170782545,4 roms nyoppusset sokkelleilighet på nedre Stubban.,Orionvegen 11B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=170782545,73 m²,13 000 kr,Privat,Leilighet
 174189177,Nærhet til ALT: Nyoppusset og lys med høy standard!,SCHULTZ GATE 5 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174189177,72 m²,22 000 kr,MONUMENT EIENDOM AS,Leilighet
 174190192,5 min fra Solsiden: Sentral -  romslig og lys leilighet!,JON RAUDES GATE 9 B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174190192,53 m²,12 000 kr,MONUMENT EIENDOM AS,Leilighet
-94450025,BR20 - TRE LEDIG SOVEROM MIDT I SENTRUM!,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=94450025,11 m²,4 900 kr,Privat,Rom i bofellesskap
+173919916,Hallset/Byåsen - Romslig - lys 2-roms leilighet      til leie,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=173919916,60 m²,9 500 kr,Privat,Leilighet
 148211095,2 hybler på kattem egnet til studenter,Brushaneveien -  19H -  Kattem, finn.no/realestate/lettings/ad.html?finnkode=148211095,11 m²,3 600 kr,Privat,Hybel
 174488718,5 min fra Solsiden: Stor -  lys og lekker leilighet!,JON RAUDES GATE 9 B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174488718,60 m²,12 000 kr,MONUMENT EIENDOM AS,Leilighet
 174644003,4-roms Nedre Stubban/Nidarvoll -  2 Bad/nytt kjøkken/4rom/Kort vei til Gløshaugen,Orionvegen 14 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174644003,11 m²,4 500 kr,Privat,Rom i bofellesskap
@@ -103,7 +103,7 @@ ID, beskrivelse, adresse, link, Kvadratmeter, pris, utleier, type bolig
 174510036,MØLLENBERG: leilighet for 5 personer - perfekt for vennegjeng!,GYLDENLØVES GATE 11 A -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174510036,105 m²,26 900 kr,AHA Eiendom,Leilighet
 174513560,MUNKVOLL | innbydende og påkostet 4-roms leilighet i 2. etg. | Ledig omgående | Garasje,Skjermvegen 87 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174513560,72 m²,13 500 kr,Utleiemegleren Trondheim,Leilighet
 174506262,Fast plass i parkeringskjeller ved Solsiden. Korttid/Langtid,Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174506262,ikke oppgitt,1 500 kr,Privat,Garasje/Parkering
-172861644,Rom til leie i nydelig leilighet,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=172861644,50 m²,5 000 kr,Privat,Rom i bofellesskap
+173461575,Lekker leilighet i stille område,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=173461575,27 m²,6 900 kr,Privat,Hybel
 174505311,Persaunet,Rønningsbakken 25 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174505311,20 m²,6 000 kr,Privat,Hybel
 174503011,Stor leilighet på Kalvskinnet,Arkitekt Christies gt. 7 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174503011,83 m²,11 000 kr,Privat,Leilighet
 127347923,Ny oppusset leilighet nytt kjøkken -  nytt bad -  nytt gulv - egen inngang og veranda.,OKSTADØY 19 B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=127347923,60 m²,11 000 kr,Privat,Leilighet
@@ -154,7 +154,7 @@ ID, beskrivelse, adresse, link, Kvadratmeter, pris, utleier, type bolig
 165328537,FRA 1. AUGUST - 200M FRA GLØSHAUGEN NTNU.,ØVRE ALLE 25 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=165328537,9 m²,5 500 kr,Privat,Rom i bofellesskap
 149409823,Stor leilighet på sentrale Møllenberg med 5 soverom.,BÅHUS GATE 2 D -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=149409823,100 m²,26 000 kr,Privat,Leilighet
 174347758,Leilighet med 4 soverom på Ilevollen,Ilevollen 3f -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174347758,120 m²,20 800 kr,Privat,Leilighet
-173461575,Lekker leilighet i stille område,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=173461575,27 m²,6 900 kr,Privat,Hybel
+133305688,Stor og vakker eiendom 5 min fra St. Olav,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=133305688,185 m²,24 000 kr,Privat,Leilighet
 174345479,NY HYBEL - NÆRMESTE NABO UNIVERITETET NTNU,Øvre Alle 27 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174345479,9 m²,5 500 kr,Privat,Rom i bofellesskap
 174350563,Møllenberg - Romslig 4-roms leilighet over 2-plan. Perfekt for 3 studenter.,Kirkegata 18 C -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174350563,ikke oppgitt,17 000 kr,Utleiemegleren Trondheim,Leilighet
 74706454,Treroms nær NTNU Dragvoll -  strøm inkludert,SILDRÅPEVEGEN 30 F -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=74706454,45 m²,11 000 kr,Privat,Hybel
@@ -201,13 +201,12 @@ Balkong.,Fjordgata 74 -  Leil 302 -  Trondheim, finn.no/realestate/lettings/ad.h
 115206996,3 - roms hjørneleilighet med "alt" inkludert. Solfylt balkong.,Ladeveien -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=115206996,58 m²,13 000 kr,Privat,Leilighet
 119658629,Nardo - Flott leilighet med 6 soverom -  to bad -  stue -  120 kvm,VOLVEVEGEN 13 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=119658629,30 m²,4 400 kr,Privat,Rom i bofellesskap
 96916360,2 ledige rom i attraktiv 5 - romsleilighet - .,Innherredsveien 1 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=96916360,75 m²,6 750 kr,Privat,Rom i bofellesskap
-98256172,Lys og fin 3-roms i barnevennlig område,Martin Barstads veg 56B -  Ranheim, finn.no/realestate/lettings/ad.html?finnkode=98256172,80 m²,11 500 kr,Privat,Leilighet
 174136084,Sentral ny renovert leilighet -  full møblert -  Nedre Byåsen,Gamle Åsvei 16 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174136084,50 m²,14 500 kr,Husleie.No AS,Leilighet
 174163463,Videovisning: Stor to-roms leilighet med privat balkong! 4B 3.2,ARKITEKT CHRISTIES GATE 4 B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174163463,74 m²,12 900 kr,ByBroen Bolig AS,Leilighet
 174155906,Fin og lys leilighet leies ut,Perslia -  Heimdal -  Heimdal, finn.no/realestate/lettings/ad.html?finnkode=174155906,53 m²,10 000 kr,Privat,Leilighet
 77703841,2-roms til leie i Ila,Osloveien 14 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=77703841,45 m²,9 000 kr,Privat,Leilighet
-133305688,Stor og vakker eiendom 5 min fra St. Olav,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=133305688,185 m²,24 000 kr,Privat,Leilighet
 150825349,Rom i bofellesskap - sentralt på Rosenborg. Kort avstand til Solsiden -  NTNU og Midtbyen.,Christian Monsens Gate 1 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=150825349,10 m²,5 000 kr,Privat,Rom i bofellesskap
+172861644,Rom til leie i nydelig leilighet,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=172861644,50 m²,5 000 kr,Privat,Rom i bofellesskap
 174147822,Fin leilighet med 3 sov -  høy standard! Egen platting,LAURITZ JENSSENS GATE 32 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=174147822,60 m²,6 000 kr,Privat,Rom i bofellesskap
 121798901,Leilighet (to hybler m/ felles kjøkken og bad) til leie på Lade,HÅKON MAGNUSSONS GATE 3 D -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=121798901,40 m²,11 800 kr,Privat,Leilighet
 79972972,Sentralt ved Nedre Elvehavn -  Solsiden,Nonnegt. 2 C -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=79972972,15 m²,5 000 kr,Privat,Rom i bofellesskap
@@ -233,7 +232,6 @@ Balkong.,Fjordgata 74 -  Leil 302 -  Trondheim, finn.no/realestate/lettings/ad.h
 172311304,Leilighet til leie i Eventyrbyen Charlottenlund/Ranheim,Tyrihansvegen 20 -  Ranheim, finn.no/realestate/lettings/ad.html?finnkode=172311304,43 m²,10 000 kr,Privat,Leilighet
 173957338,Ledig rom i nyoppusset leilighet for langtidsleie! Kort til populære solsiden -  og sentrum,Gamle Kongveie 46 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173957338,70 m²,6 000 kr,Privat,Hybel
 133300559,Egen leilighet midt i Trondheim Sentrum!,Credo Veita 2 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=133300559,20 m²,7 900 kr,Privat,Hybel
-143286601,Hybelleilighet Stubban -  Trondheim,STUBBANVEGEN 40 C -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=143286601,46 m²,8 000 kr,Privat,Leilighet
 133613325,Nyoppført og moderne enderekkehus på Lund Østre - barnevennlig,Johan Arnt Høiseths vei 32 -  Heimdal, finn.no/realestate/lettings/ad.html?finnkode=133613325,90 m²,15 000 kr,Privat,Rekkehus
 173947701,VIKHAMMER: Attraktiv 5-roms leilighet på ca 120 kvadratmeter | Barnevennlig område | Biloppstillingsplass.,Granholtvegen 3 -  Ranheim, finn.no/realestate/lettings/ad.html?finnkode=173947701,120 m²,13 000 kr,Utleiemegleren Trondheim,Leilighet
 173946236,LADE - Delikat og nyoppført 2-romsleilighet med ekstra takhøyde - Fjernvarme - Kabel-tv og internett inkl. - Balkong,Ladeveien 15 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173946236,ikke oppgitt,12 000 kr,Utleiemegleren Trondheim,Leilighet
@@ -257,9 +255,9 @@ Balkong.,Fjordgata 74 -  Leil 302 -  Trondheim, finn.no/realestate/lettings/ad.h
 78616673,SENTRUMSNÆRE HYBLER TIL LEIE- HØY STANDARD!,HØILIVEGEN 10 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=78616673,11 m²,5 500 kr,Privat,Rom i bofellesskap
 170228844,Stor leilighet med 5 soverom på Ila,ILEVOLLEN 3 F -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=170228844,120 m²,26 000 kr,Privat,Leilighet
 173723281,Hybel til leie i bofellesskap i Ila. Ledig nå,Ilevollen 3F -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173723281,120 m²,5 000 kr,Privat,Hybel
-172861644,Rom til leie i nydelig leilighet,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=172861644,50 m²,5 000 kr,Privat,Rom i bofellesskap
 173727782,Leilighet med 4 soverom rett ved Ilaparken.,Ilevollen 3C -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173727782,100 m²,20 000 kr,Privat,Leilighet
 173729045,Leilighet med 3 sov på Møllenberg,Nedre Møllenberg 53 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173729045,90 m²,15 600 kr,Privat,Leilighet
+79267046,BR30 - FIRE AV FIRE LEILIGHETER I LEIE I SENTRUM!,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=79267046,10 m²,5 500 kr,Privat,Rom i bofellesskap
 173869317,Delikat 3-roms leilighet med utsikt mot Munkholmen | Kabel TV- og internett inkl. | Høy standard | Parkering | Møblert,Nedre Ila 3 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173869317,69 m²,16 000 kr,Utleiemegleren Trondheim,Leilighet
 173868342,HØYSKOLEPARKEN/ LERKENDAL - Lys og trivelig 2-roms endeleilighet i toppetasjen. Internett inkludert! Kortidsleie |  Leies ut møblert.,Holtermanns Veg 4 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173868342,36 m²,11 000 kr,Utleiemegleren Trondheim,Leilighet
 173863241,Strinda Hageby - Flott 3-romsleilighet fra 2018 - Høy standard - Parkering -  Fjernvarme -  kabel-TV og internett inkludert i husleia,Øvre Granåslia 1 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173863241,63 m²,13 500 kr,Utleiemegleren Trondheim,Leilighet
@@ -268,11 +266,10 @@ Balkong.,Fjordgata 74 -  Leil 302 -  Trondheim, finn.no/realestate/lettings/ad.h
 119856924,Sokkel på Stavset,Øvre Stavsetvegen 40 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=119856924,65 m²,10 000 kr,Privat,Leilighet
 173843397,Enebolig til leie på Selsbakk,RINGVEGEN 4 B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173843397,84 m²,12 000 kr,Privat,Enebolig
 162408316,1-roms leilighet ink strøm på 25kvm,Hoeggveien 7 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=162408316,25 m²,7 000 kr,Privat,Leilighet
-173843578,Ny 3-roms leilighet -  Bromstad Park,Kommandovegen 33 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173843578,60 m²,12 900 kr,RYDNING HOLDING AS,Leilighet
+173843578,Ny 3-roms leilighet -  Bromstad Park,Kommandovegen 33 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173843578,60 m²,13 500 kr,RYDNING HOLDING AS,Leilighet
 69212650,84 kvm Romslig og Idyllisk Beliggende Leilighet Munkvoll/ Byåsen/ St.Olav/ NTNU.,SKJERMVEGEN   62 A -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=69212650,84 m²,16 500 kr,Privat,Leilighet
 173832187,Hybelleilighet,Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173832187,17 m²,6 500 kr,Privat,Hybel
 171383976,Hybel,Anders tvereggens vei 10 a -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=171383976,35 m²,8 500 kr,Privat,Hybel
-76319165,Mikro-leilighet med alt inkludert,FJORDGATA 10 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=76319165,15 m²,8 500 kr,Privat,Leilighet
 173826567,MOHOLT | 4- roms leilighet | Parkering i gårdsplass | Sentralt |  Perfekt for studenter,Cecilie Løvøs Veg 14 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173826567,86 m²,13 000 kr,Utleiemegleren Trondheim,Tomannsbolig
 101213300,To av fem hybler i bofellesskap,EIRIK JARLS GATE 6 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=101213300,10 m²,5 000 kr,Privat,Rom i bofellesskap
 173810827,CAMP TRONDHEIM: stor hybel med egen kjøkkenkrok - for studenter,Persauneveien 54 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173810827,25 m²,6 500 kr,AHA Eiendom,Hybel
@@ -309,10 +306,10 @@ Husdyr tillates!,Stavnevegen 11 (Leilighet 3) -  Trondheim, finn.no/realestate/l
 75588570,Lys og trivelig 2/3-roms leilighet til leie,TAMPEREVEIEN 2 B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=75588570,71 m²,12 500 kr,Privat,Leilighet
 173711312,UTLEIR: Lys og moderne 3-roms ved AkkaBakka,Signe Swenssons veg 5 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173711312,62 m²,13 900 kr,AHA Eiendom,Leilighet
 173711132,UTLEIR: Lys og trivelig 2-roms med god standard rett ved Estenstadmarka,SIGNE SWENSSONS VEG 3 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173711132,38 m²,10 900 kr,AHA Eiendom,Leilighet
-173461575,Lekker leilighet i stille område,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=173461575,27 m²,6 900 kr,Privat,Hybel
 173710901,BRUNDALEN: Stor 3-roms med god standard. Depositum kan erstattes med leiegaranti,BRUNDALEN 17 B -  Jakobsli, finn.no/realestate/lettings/ad.html?finnkode=173710901,90 m²,15 600 kr,AHA Eiendom,Leilighet
 173702035,ROMOLSLIA - Pen og romslig 4-romslielighet - Kabel-tv og internett inkludert - Balkong - Bod,Romolslia 17B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173702035,89 m²,15 000 kr,Utleiemegleren Trondheim,Leilighet
 74632835,Koselig leilighet nær solsiden med lukseriøst bad! 2 store rom med utsikt ledig!,Hans finnes gate -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=74632835,100 m²,5 000 kr,Privat,Rom i bofellesskap
+73519751,Hybler til leie for studenter . - Strøm inkludert.  5000.- depositum,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=73519751,10 m²,5 000 kr,Privat,Rom i bofellesskap
 173682536,Lys og trivelig hybel ca 25 m2 ledig på Stavne -  nær NTNU og St.Olav,Sivert Dahlens vei 6 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173682536,25 m²,5 800 kr,Privat,Leilighet
 173666345,Leilighet til leie,ullstadløkkveien 24 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173666345,44 m²,12 000 kr,Privat,Leilighet
 140795387,Rom ledig i bofellesskap for 4 jentestudenter.,RØLLIKVEGEN 22 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=140795387,80 m²,4 700 kr,Privat,Rom i bofellesskap
@@ -330,7 +327,6 @@ Husdyr tillates!,Stavnevegen 11 (Leilighet 3) -  Trondheim, finn.no/realestate/l
 173592760,1 av 4 rom ledig i rolig bofellesskap!,Granvegen 11C -  Jakobsli, finn.no/realestate/lettings/ad.html?finnkode=173592760,8 m²,4 100 kr,Privat,Rom i bofellesskap
 65122257,Rom i  hyggelig og rolig bokollektiv til leie på Heimdal,SIVERT THONSTADS VEI 28 A -  Heimdal, finn.no/realestate/lettings/ad.html?finnkode=65122257,11 m²,4 000 kr,Privat,Rom i bofellesskap
 76544664,Hybler på Nardo til leie -  4200kr ink strøm,TORS VEG 32 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=76544664,10 m²,4 200 kr,Privat,Hybel
-153630876,1 av 3 hybler nær Bakklandet ledig,Jørgen Bjelkes gt.1 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=153630876,9 m²,4 600 kr,Privat,Hybel
 173566103,Ledig sokkel leilighet på Selsbakk,MAGASINVEGEN 13 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173566103,55 m²,8 500 kr,Privat,Leilighet
 144334485,1 av 4 hybler til leie TV på alle rom,Pinebergvegen 13B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=144334485,10 m²,4 400 kr,Privat,Rom i bofellesskap
 77484710,Rom på 13 m2 i fin leilighet sentralt på Solsiden.,Dyre Halses Gate 2 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=77484710,13 m²,6 500 kr,Privat,Rom i bofellesskap
@@ -360,11 +356,11 @@ Husdyr tillates!,Stavnevegen 11 (Leilighet 3) -  Trondheim, finn.no/realestate/l
 173383422,Rom i sentralt -  nyoppusset kollektiv,GAMLE KONGEVEI 46 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173383422,128 m²,5 400 kr,Privat,Rom i bofellesskap
 112851142,Sentralt beliggende -  1 rom i 5 roms leilighet med god standard. Fullt møblert.,OLAV TRYGGVASONS GATE 34 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=112851142,12 m²,4 800 kr,Privat,Rom i bofellesskap
 151182956,2-roms leilighet med hvitevarer fra 2014 til framleie 43 kvm,Per Sivles Veg 34D -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=151182956,38 m²,10 000 kr,Privat,Tomannsbolig
-79267046,BR30 - FIRE AV FIRE LEILIGHETER I LEIE I SENTRUM!,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=79267046,10 m²,5 500 kr,Privat,Rom i bofellesskap
 173379749,SVERRESBORG - Horisontaldelt tomannsbolig - 2 soverom - Hage - Tv og internett inkludert - Vedovn,Breidablikveien 86 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173379749,90 m²,11 000 kr,Utleiemegleren Trondheim,Tomannsbolig
 85860854,Sokkelleilighet til leie på Tiller -  ink Strøm -  fjernvarme og bredbånd,ARNE SOLBERGS VEG 54 -  Tiller, finn.no/realestate/lettings/ad.html?finnkode=85860854,48 m²,9 500 kr,Privat,Hybel
 72177906,Hybel ledig for studenter,Bøckmans vei 49 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=72177906,260 m²,3 500 kr,Privat,Rom i bofellesskap
 124128086,Sentral Bryggeleilighet,FJORDGATA 20 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=124128086,52 m²,11 900 kr,Privat,Leilighet
+172861644,Rom til leie i nydelig leilighet,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=172861644,50 m²,5 000 kr,Privat,Rom i bofellesskap
 153139769,Kort-/langtidsleie. Fullt møblert/utstyrt.,dyre halsesgate 7 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=153139769,34 m²,10 800 kr,Privat,Leilighet
 107651895,Stor og unik 3 roms leilighet på øvre Singsaker til leie,Landstads vei 27 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=107651895,96 m²,15 000 kr,Privat,Leilighet
 157926811,Stor og fin leilighet til leie på 70m2,Nedre Granåslia 2 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=157926811,70 m²,10 000 kr,Privat,Leilighet
@@ -411,11 +407,11 @@ Husdyr tillates!,Stavnevegen 11 (Leilighet 3) -  Trondheim, finn.no/realestate/l
 173116534,Videovisning: Praktisk og sentral ett-roms rett ved NTNU! 13ØM 1.2,ØYSTEIN MØYLAS VEG 13 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173116534,20 m²,6 975 kr,ByBroen Bolig AS,Leilighet
 152917911,Moderne leilighet med 3 soverom leies ut sentralt i Trondheim. Alt inkludert,Kyavegen 23 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=152917911,81 m²,21 000 kr,Privat,Leilighet
 173102125,Moderne og sentral leilighet med 2 soverom,Klæbuveien 140a -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173102125,44 m²,11 000 kr,Privat,Leilighet
-94450025,BR20 - TRE LEDIG SOVEROM MIDT I SENTRUM!,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=94450025,11 m²,4 900 kr,Privat,Rom i bofellesskap
 171151126,Leilighet til leie på Byåsen/Nyborg,BENJAMINSVEIEN 5 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=171151126,41 m²,11 000 kr,Privat,Leilighet
 173039050,Stor og unik enebolig på Byåsen! Umiddelbar nærhet til Bymarka,OVERLEGE BRATTS VEG 19 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=173039050,250 m²,22 000 kr,Privat,Enebolig
 120877062,Koselig moderne leilighet -  korttidsleie mulig.,Per Kvists veg 8 -  Jakobsli, finn.no/realestate/lettings/ad.html?finnkode=120877062,42 m²,9 500 kr,Privat,Leilighet
 116137589,Nyoppusset leilighet på Stavset leies ut fra Juli -  inkl. strøm!!,Alfheimsvingen 2 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=116137589,36 m²,9 000 kr,Privat,Leilighet
+173919916,Hallset/Byåsen - Romslig - lys 2-roms leilighet      til leie,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=173919916,60 m²,9 500 kr,Privat,Leilighet
 79302557,Flott 2-roms til leie på Væretrøa. Alt inkludert,Kjersti Wæhres veg 3 -  Ranheim, finn.no/realestate/lettings/ad.html?finnkode=79302557,45 m²,9 500 kr,Privat,Leilighet
 172983763,Nybygd sokkelleilighet,Jakobslivegen 9 -  Jakobsli, finn.no/realestate/lettings/ad.html?finnkode=172983763,40 m²,9 000 kr,Privat,Leilighet
 172974747,STOR 2 ROMS TERASSELEILIGHET MEGET SENTRALT PÅ MOHOLT,VEGAMOT 6 A -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172974747,62 m²,12 500 kr,Privat,Leilighet
@@ -440,7 +436,6 @@ Husdyr tillates!,Stavnevegen 11 (Leilighet 3) -  Trondheim, finn.no/realestate/l
 172777208,NYOPPUSSET OG STRØKEN 1-ROMS LEILIGHET MED NÆRHET TIL SOLSIDEN,JON RAUDES GATE 8 A -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172777208,30 m²,10 000 kr,Privat,Leilighet
 122328685,Nyoppusset(2018) hybel/sokkelleilighet klar til utleie fra 01.mai,Røstadbakken 153 -  Jonsvatnet, finn.no/realestate/lettings/ad.html?finnkode=122328685,66 m²,11 000 kr,Privat,Leilighet
 124986820,Bare 1 igjen!! - Lys og flott hybel leies ut i 1. etasje,LYKKESTIEN 1 A -  Ranheim, finn.no/realestate/lettings/ad.html?finnkode=124986820,12 m²,4 500 kr,Privat,Rom i bofellesskap
-172645053,Sentral og funksjonell 2-roms,Kongens gate 56 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172645053,24 m²,9 000 kr,Privat,Leilighet
 172751103,hoveddel av hus for leie,Bratsberggrinda 2 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172751103,100 m²,13 000 kr,Privat,Enebolig
 111532388,NYERE 2-ROMS LEILIGHET PÅ TOMSET LEDIG I FRA 1. MAI,Margrethe thomsets veg -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=111532388,41 m²,11 000 kr,Privat,Leilighet
 172747193,Romslig hybel i et hyggelig bofelleskap. SENTRALT. English below,AASMUND VINJES GATE 4 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172747193,10 m²,4 000 kr,Privat,Hybel
@@ -462,12 +457,12 @@ Husdyr tillates!,Stavnevegen 11 (Leilighet 3) -  Trondheim, finn.no/realestate/l
 172683621,Stor og flott 2-roms leilighet på Bakkaunet.,Skogranda 8 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172683621,ikke oppgitt,11 000 kr,Utleiemegleren Trondheim,Leilighet
 172665997,Topp/loftsleilighet sentralt beliggende i Ila -  Trondheim. Takterasse og balkong.,Bergsligata 5 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172665997,115 m²,17 000 kr,Privat,Leilighet
 172664164,Lys -  sørvendt moderne leilighet . Utleid,KYAVEGEN 23 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172664164,57 m²,12 000 kr,Privat,Leilighet
-172861644,Rom til leie i nydelig leilighet,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=172861644,50 m²,5 000 kr,Privat,Rom i bofellesskap
 172664819,Sentral hybel på Tempe,Holtermanns veg 45 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172664819,10 m²,4 450 kr,Privat,Rom i bofellesskap
 168441286,4-roms leilighet ved Leangen,Ranheimsvegen 13a -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=168441286,100 m²,13 000 kr,Privat,Leilighet
 172655867,Korttids leie -  Sjetnemarka 50 kvm,PAUL SKOLEMESTERS VEG 12a -  Sjetnemarka, finn.no/realestate/lettings/ad.html?finnkode=172655867,50 m²,8 000 kr,Privat,Leilighet
 155167608,Ny bygget 3-roms sokkel leilighet til Leie nær HEIMDAL sentrum,Sandbakkvegen 89 -  Heimdal, finn.no/realestate/lettings/ad.html?finnkode=155167608,74 m²,10 800 kr,Privat,Leilighet
 73916962,Stor -  nyoppusset leilighet med 5 store soverom nært Sluppen,BRATSBERGVEGEN 43 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=73916962,10 m²,4 500 kr,Privat,Rom i bofellesskap
+133305688,Stor og vakker eiendom 5 min fra St. Olav,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=133305688,185 m²,24 000 kr,Privat,Leilighet
 172621301,Koselig loftsleilighet leies ut fra 01.05.20,Ole Hogstadsvei 33 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172621301,60 m²,12 000 kr,Privat,Leilighet
 172594332,SINGSAKER: Leilighet med 4 soverom i Villa Tyholtveien 25. Nyoppusset i 2017. Perfekt studentkollektiv for 4 venner!,Tyholtveien 25 -  U0101 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172594332,ikke oppgitt,20 000 kr,Utleiemegleren Trondheim,Leilighet
 172594103,Byåsen/ Havstein - 2-romsleilighet med fantastisk utsikt - Oppvarming inkl. Balansert ventilasjon og vannbåren varme i alle gulv - Biloppstillingsplass.,Breisynvegen 28D -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172594103,ikke oppgitt,11 000 kr,Utleiemegleren Trondheim,Leilighet
@@ -513,12 +508,12 @@ Husdyr tillates!,Stavnevegen 11 (Leilighet 3) -  Trondheim, finn.no/realestate/l
 172095991,Leilighet til leie,FLATÅSTOPPEN 75 -  Flatåsen, finn.no/realestate/lettings/ad.html?finnkode=172095991,60 m²,10 000 kr,Privat,Leilighet
 170745647,Stor flott sokkelleilighet til leie. Barnevennlig nært turterreng på Byneset,Klefstadhaugvegen 238 -  Bosberg, finn.no/realestate/lettings/ad.html?finnkode=170745647,110 m²,11 000 kr,Privat,Leilighet
 172066421,Stilig 2 roms i sentrum. Oppvarming/varmtvann/abonnement for internett/kabel TV er inkludert.,Sandgata 24B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=172066421,41 m²,10 500 kr,Utleiemegleren Trondheim,Leilighet
-173461575,Lekker leilighet i stille område,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=173461575,27 m²,6 900 kr,Privat,Hybel
 121294681,NY leilighet med 4 soverom. 82+15 kvm innglass balkong. Inkl. Internett/TV/oppv.,Øvre Granåslia 1 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=121294681,80 m²,5 750 kr,Privat,Leilighet
 171952952,Ny leilighet til leie på Lade,Jarlsborgveien 4A -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=171952952,48 m²,10 500 kr,Privat,Leilighet
 143750552,10 til 15 rom/hybler ledig for utleie - korttids- eller langtidsleie,LEISTADVEGEN 1 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=143750552,12 m²,6 200 kr,Privat,Hybel
 171571023,Hybelleilighet 3 roms leies ut,Småullvegen 2 -  Tanem, finn.no/realestate/lettings/ad.html?finnkode=171571023,65 m²,8 500 kr,Privat,Leilighet
 75246074,Stor leilighet på Stubban. 75m2 -  2 sov.,STUBBSVINGEN 30 A -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=75246074,75 m²,11 000 kr,Privat,Leilighet
+173919916,Hallset/Byåsen - Romslig - lys 2-roms leilighet      til leie,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=173919916,60 m²,9 500 kr,Privat,Leilighet
 80799400,Stor trivelig  2 roms  sokkelleilighet,Osvegen 38 -  Ranheim, finn.no/realestate/lettings/ad.html?finnkode=80799400,64 m²,10 500 kr,Privat,Leilighet
 143216084,Nyoppusset 4-roms leilighet/3 hybler på Persaunet,Brian Smiths gate 4B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=143216084,62 m²,5 000 kr,Privat,Hybel
 79273479,Flott 4-roms leilighet med sjøutsikt -  wifi og p .plass i Trondheim !,Martin Haugens vei 11 -  Bosberg, finn.no/realestate/lettings/ad.html?finnkode=79273479,75 m²,10 500 kr,Privat,Leilighet
@@ -564,12 +559,12 @@ Husdyr tillates!,Stavnevegen 11 (Leilighet 3) -  Trondheim, finn.no/realestate/l
 164348357,1 ledig hybel i bygård midt i sentrum. Nyoppusset!,BRATTØRGATA 1 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=164348357,12 m²,5 000 kr,RYDNING HOLDING AS,Hybel
 162928473,Ledig hybel til leie midt i sentrum,BRATTØRGATA 3 A -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=162928473,7 m²,5 500 kr,Brattørgata 3A As,Rom i bofellesskap
 167281514,1 hybel ledig i et bofelleskap rett ved NTNU Gløshaugen,Elgesetergate 23 B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=167281514,10 m²,4 000 kr,North Bridge Eiendomsforvaltning AS,Hybel
-73519751,Hybler til leie for studenter . - Strøm inkludert.  5000.- depositum,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=73519751,10 m²,5 000 kr,Privat,Rom i bofellesskap
 167291970,Fin og moderne leilighet på Nardo - kort vei til NTNU/St.Olav,NARDOVEGEN 7 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=167291970,40 m²,11 500 kr,Sivilingeniør Godhavn AS,Leilighet
 166735336,1-roms midt i sentrum.,MUNKEGATA 34 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=166735336,20 m²,7 700 kr,Munkegata 34/36 AS,Leilighet
 166730369,Stor 2 roms leilighet på Solsiden ( Byggeår 2015) Sentral beliggenhet.,BASSENGBAKKEN 2 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=166730369,39 m²,12 000 kr,Byggteknikk Prosjekt,Leilighet
 166489469,Stor 2 roms leilighet på Solsiden ( Byggeår 2015) Sentral beliggenhet.,BASSENGBAKKEN 2 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=166489469,39 m²,12 000 kr,Byggteknikk Prosjekt,Leilighet
 165756797,Fine leiligheter på Nardo med balkong - kort vei til NTNU/St.Olav,NARDOVEGEN 7 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=165756797,40 m²,11 500 kr,Sivilingeniør Godhavn AS,Leilighet
+73519751,Hybler til leie for studenter . - Strøm inkludert.  5000.- depositum,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=73519751,10 m²,5 000 kr,Privat,Rom i bofellesskap
 165198480,P-plass i parkeringskjeller rett ved Sirkus Shopping.,THONING OWESENS GATE 29 A -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=165198480,15 m²,950 kr,Stiftsstaden Boligutleie AS,Garasje/Parkering
 165189917,Stor 2 roms leilighet på Solsiden ( Byggeår 2015) Sentral beliggenhet.,BASSENGBAKKEN 2 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=165189917,39 m²,12 000 kr,Byggteknikk Prosjekt,Leilighet
 163098702,Voll Studentby - Hybel i kollektiv med delt bad,Vegamot 1 -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=163098702,10 m²,4 900 kr,Frost Eiendom AS,Hybel
@@ -599,5 +594,3 @@ Husdyr tillates!,Stavnevegen 11 (Leilighet 3) -  Trondheim, finn.no/realestate/l
 88559940,Flott leilighet i rolig strøk midt i sentrum,Erling Skakkes gate 2 A -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=88559940,50 m²,13 550 kr,ARISTOTELES EIENDOM AS,Leilighet
 86174706,Meget pen loftsleilighet med egen takterrasse.,Osloveien 12 B -  Trondheim, finn.no/realestate/lettings/ad.html?finnkode=86174706,50 m²,11 000 kr,Zolen & Månen AS,Leilighet
 83253597,Nye og brukte boligbrakker til leie -  for bedrifter,Heimdal, finn.no/realestate/lettings/ad.html?finnkode=83253597,18 m²,4 300 kr,Room Xpress AS,Hybel
-133305688,Stor og vakker eiendom 5 min fra St. Olav,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=133305688,185 m²,24 000 kr,Privat,Leilighet
-94450025,BR20 - TRE LEDIG SOVEROM MIDT I SENTRUM!,Betalt plassering, finn.no/realestate/lettings/ad.html?finnkode=94450025,11 m²,4 900 kr,Privat,Rom i bofellesskap
