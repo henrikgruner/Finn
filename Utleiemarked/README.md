@@ -1,5 +1,10 @@
 ## Utleiemarkedet
-Programmet henter ut alle utleieobjekter og eksporterer til .csv fil for de fem største byene i Norge: Oslo, Tromsø, Trondheim, Stavanger og Bergen. Attributtene som hentes ut er:
+Programmet henter ut alle utleieobjekter og eksporterer til .csv fil for de fem største byene i Norge:
+
+Oslo, Tromsø, Trondheim, Stavanger og Bergen. 
+
+#### Attributtene som hentes ut er:
+
 ID, Beskrivelse, adresse, link ,sqm (m^2), pris per måned, utleier, type ( leiligheter/hybel/garasje osv).  
 
 #### Eksempel på output
