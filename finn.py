@@ -2,12 +2,13 @@
 import bs4
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
+import unicodecsv as csv
 
 
 def getInfo():
     URL = "https://www.finn.no/realestate/lettings/search.html?filters=&location=0.20016&location=1.20016.20318&page="
     filename = "utleiebolig.csv"
-    f = open(filename, "w")
+    f = open(filename, "w", encoding='utf-8')
     f.write("SEP=," + "\n")
     f.write("\n")
     headers = "ID, beskrivelse, adresse, link, Kvadratmeter, pris, utleier, type bolig\n"
@@ -45,7 +46,8 @@ def printInfo(URL, f):
         try:
             price = container2.contents[1].getText()
         except IndexError:
-            price = "ikke oppgitt"
+            price = sqm
+            sqm = "ikke oppgitt"
 
         container3 = container.find("div", "ads__unit__content__list")
         typeLandlord = container3.getText()
