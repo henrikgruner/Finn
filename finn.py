@@ -6,9 +6,25 @@ import unicodecsv as csv
 import math
 
 
-def getPages():
-    URL = "https://www.finn.no/realestate/lettings/search.html?filters=&location=0.20016&location=1.20016.20318"
+def getURL(by):
 
+    if(by == "STAVANGER"):
+        return "https://www.finn.no/realestate/lettings/search.html?filters=&location=0.20012&location=1.20012.20196"
+
+    elif(by == "BERGEN"):
+        return "https://www.finn.no/realestate/lettings/search.html?filters=&location=0.22046&location=1.22046.20220"
+    elif (by == "TRONDHEIM"):
+        return "https://www.finn.no/realestate/lettings/search.html?filters=&location=0.20016&location=1.20016.20318"
+    elif(by == "OSLO"):
+        return "https://www.finn.no/realestate/lettings/search.html?filters=&location=0.20061"
+    elif(by == "TROMSØ"):
+        return "https://www.finn.no/realestate/lettings/search.html?filters=&location=0.22054&location=1.22054.20413"
+    else:
+        print("ikke gyldig")
+        return False
+
+
+def getPages(URL):
     uClient = uReq(URL)
     page_html = uClient.read()
     uClient.close()
@@ -16,22 +32,22 @@ def getPages():
     page_soup = soup(page_html, "html.parser")
 
     container = page_soup.findAll("span", {"class": "u-strong"})
-    pages = container[0].contents[0]
+    pages = container[0].contents[0].replace(u'\xa0', "")
     return math.ceil(int(pages)/51)
 
 
-def getInfo():
+def getInfo(by):
 
-    URL = "https://www.finn.no/realestate/lettings/search.html?filters=&location=0.20016&location=1.20016.20318&page="
-    filename = "utleiebolig.csv"
+    URL = getURL(by)
+    filename = "utleiebolig" + by + ".csv"
     f = open(filename, "w", encoding='utf-8')
     f.write("SEP=," + "\n")
     f.write("\n")
-    headers = "ID, beskrivelse, adresse, link, Kvadratmeter, pris, utleier, type bolig\n"
+    headers = "ID, beskrivelse, adresse, Kvadratmeter, pris, utleier, type bolig , link\n"
     f.write(headers)
-    pages = getPages()
+    pages = getPages(URL)
     for i in range(1, pages+1):
-        printInfo(URL + str(i), f)
+        printInfo(URL + "&page=" + str(i), f)
     print(i)
     f.close()
 
@@ -69,8 +85,8 @@ def printInfo(URL, f):
         typeLandlord = container3.getText()
         residenceType = container3.next.next.getText()
 
-        f.write(ID + "," + description.replace(",", " - ") + "," + address.replace(",", " - ") + ", " + link + "," +
-                sqm + "," + price + "," + typeLandlord + "," + residenceType + "\n")
+        f.write(ID + "," + description.replace(",", " - ") + "," + address.replace(",", " - ") + ", " +
+                sqm + "," + price + "," + typeLandlord + "," + residenceType + link + "," + "\n")
 
         print(ID)
         print(description)
@@ -81,7 +97,12 @@ def printInfo(URL, f):
         print(typeLandlord)
         print(residenceType)
 
-        print('\n')
+
+print('\n')
 
 
-getInfo()
+getInfo("STAVANGER")
+getInfo("BERGEN")
+getInfo("OSLO")
+getInfo("TRONDHEIM")
+getInfo("TROMSØ")
