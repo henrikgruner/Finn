@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import bs4
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
@@ -19,6 +20,29 @@ def getURL(by):
     else:
         print("ikke gyldig")
         return False
+
+
+def getPPSqm(price, sqm):
+
+    if("not found" in price or "not found" in sqm):
+        return "None"
+
+    elif("-" in price and "-" in sqm):
+        price = price.split("-")
+        sqm = sqm.split("-")
+        priceLow = price[0].split(" ")
+        priceHigh = price[1].split(" ")
+        sqmLow = sqm[0].split(" ")
+        sqmHigh = sqm[1].split(" ")
+        return str(round(float(priceLow[0])/float(sqmLow[0]))) + " - " + str(round(float(priceHigh[1])/float(sqmHigh[1])))
+
+    elif("Solgt" in price):
+        return "solgt - uvisst"
+
+    else:
+        price = price.split(" ")
+        sqm = sqm.split(" ")
+        return round(float(price[0])/float(sqm[0]))
 
 
 def getPages(URL):
@@ -54,23 +78,38 @@ def getDataFromOnePage(URL, f):
             sqm = "not found"
         try:
             price = container.find(
-                "div", {"class", "ads__unit__content__keys"}).contents[1].text
+                "div", {"class", "ads__unit__content__keys"}).contents[1].text.replace(u'\xa0', "")
+
         except IndexError:
             price = "not found"
 
         totalprice = container.findAll(
             "div", {"class", "ads__unit__content__list"})[1].text.strip()
+
+        if("•" in totalprice):
+            totalprice = totalprice.split("•")
+            fellesgjeld = totalprice[1]
+            totalprice = totalprice[0]
+            if(':' in fellesgjeld):
+                temp = fellesgjeld.split(':')
+                fellesgjeld = temp[1].replace(':', '')
+
+        else:
+            fellesgjeld = '0'
+
         broker = container.findAll(
             "div", {"class", "ads__unit__content__list"})[0].text.strip()
 
-        f.write(str(id) + " , " + description + " , " + address + " , " + sqm + " , " +
-                price + " , " + totalprice + " , "+broker + "\n")
+        ppsqmm = getPPSqm(price, sqm)
+
+        f.write(str(id) + " ; " + description + " ; " + address + " ; " + sqm + " ; " +
+                price + "; " + str(ppsqmm) + " ; " + totalprice + ";" + str(fellesgjeld) + " ; "+broker + "\n")
 
 
 def exportData(by):
     filename = "Boligdata" + by + ".csv"
     f = open(filename, "w")
-    headers = "ID, Beskrivelse, adresse, kvadratmeter, pris, totalpris + fellesgjeld, megler \n"
+    headers = "ID; Beskrivelse; adresse; kvadratmeter; pris;pris per kvadratmeter ; totalpris ; fellesutgifter; megler \n"
     f.write(headers)
     URL = getURL(by)
     for i in range(1, getPages(URL)):
@@ -80,7 +119,7 @@ def exportData(by):
 
 
 exportData("STAVANGER")
+exportData("OSLO")
 exportData("BERGEN")
 exportData("TRONDHEIM")
-exportData("OSLO")
 exportData("TROMSØ")
