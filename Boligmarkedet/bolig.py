@@ -107,14 +107,13 @@ def getDataFromOnePage(URL, f):
 
 
 def exportData(by):
-    filename = "Boligdata" + by + ".csv"
+    filename = "../Data/Boligdata" + by + ".csv"
     f = open(filename, "w")
     headers = "ID; Beskrivelse; adresse; kvadratmeter; pris;pris per kvadratmeter ; totalpris ; fellesutgifter; megler \n"
     f.write(headers)
     URL = getURL(by)
     for i in range(1, getPages(URL)):
         getDataFromOnePage(URL + "&page="+str(i), f)
-
     f.close()
 
 

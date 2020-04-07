@@ -39,11 +39,11 @@ def getPages(URL):
 def getInfo(by):
 
     URL = getURL(by)
-    filename = "utleiebolig" + by + ".csv"
+    filename = "../Data/utleiebolig" + by + ".csv"
     f = open(filename, "w", encoding='utf-8')
-    f.write("SEP=," + "\n")
+    f.write("SEP=;" + "\n")
     f.write("\n")
-    headers = "ID, beskrivelse, adresse, Kvadratmeter, pris, utleier, type bolig , link\n"
+    headers = "ID; beskrivelse; adresse; Kvadratmeter; pris; utleier; type bolig ; link\n"
     f.write(headers)
     pages = getPages(URL)
     for i in range(1, pages+1):
@@ -85,8 +85,8 @@ def printInfo(URL, f):
         typeLandlord = container3.getText()
         residenceType = container3.next.next.getText()
 
-        f.write(ID + "," + description.replace(",", " - ") + "," + address.replace(",", " - ") + ", " +
-                sqm + "," + price + "," + typeLandlord + "," + residenceType + link + "," + "\n")
+        f.write(ID + ";" + description + ";" + address + "; " +
+                sqm + ";" + price + ";" + typeLandlord + ";" + residenceType + link + ";" + "\n")
 
         print(ID)
         print(description)
