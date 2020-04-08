@@ -3,12 +3,13 @@ import bs4
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 import math
+import csv
+import datetime
 
 
 def getURL(by):
     if(by == "STAVANGER"):
         return "https://www.finn.no/realestate/homes/search.html?filters=&location=0.20012&location=1.20012.20196"
-
     elif(by == "BERGEN"):
         return "https://www.finn.no/realestate/homes/search.html?filters=&location=0.22046&location=1.22046.20220"
     elif (by == "TRONDHEIM"):
@@ -102,7 +103,7 @@ def getDataFromOnePage(URL, f):
 
         ppsqmm = getPPSqm(price, sqm)
 
-        f.write(str(id) + " ; " + description + " ; " + address + " ; " + sqm + " ; " +
+        f.write(str(id) + " ; " + description.replace(";", ":") + " ; " + address + " ; " + sqm + " ; " +
                 price + "; " + str(ppsqmm) + " ; " + totalprice + ";" + str(fellesgjeld) + " ; "+broker + "\n")
 
 
@@ -116,9 +117,58 @@ def exportData(by):
         getDataFromOnePage(URL + "&page="+str(i), f)
     f.close()
 
+    calculateAveragePPSQM(by)
 
-exportData("STAVANGER")
-exportData("OSLO")
-exportData("BERGEN")
-exportData("TRONDHEIM")
-exportData("TROMSØ")
+
+def calculateAveragePPSQM(by):
+    filename = "../Data/Boligdata" + by + ".csv"
+    f = open(filename, "r")
+    csv_reader = csv.reader(f, delimiter=';')
+    ppsqm = []
+    line = 0
+    for row in csv_reader:
+        if line == 0:
+            pass
+        else:
+            try:
+
+                if("Total" in row[5] or "kr" in row[5]):
+                    ppm = row[6]
+                elif("-" in row[5] and "solgt" not in row[5]):
+                    temp = row[5].split("-")
+                    ppsqm.append(temp[0].replace(" ", ""))
+                    ppsqm.append(temp[1].replace("-", ""))
+                else:
+                    ppm = int(row[5])
+                    ppsqm.append(ppm)
+            except (IndexError, ValueError) as e:
+                ppsqm.append(None)
+        line += 1
+    f.close()
+    writeToFile(ppsqm, by)
+
+
+def writeToFile(list, by):
+    filename = "../Data/Kvadratmeterpris" + ".csv"
+    f = open(filename, "a+")
+    list[:] = [int(item) for item in list if item != None]
+    avg = sum(list)/len(list)
+    f.write(";" + str(round(avg)))
+    f.close()
+
+
+def main():
+    cities = ["STAVANGER", "OSLO", "BERGEN", "TRONDHEIM", "TROMSØ"]
+    filename = "../Data/Kvadratmeterpris" + ".csv"
+    f = open(filename, "a+")
+    f.write("\n")
+    now = datetime.datetime.now()
+    date = str(now.day) + "." + str(now.month) + "." + str(now.year)
+    f.write(date)
+    f.close()
+    for city in cities:
+        exportData(city)
+
+
+if __name__ == '__main__':
+    main()

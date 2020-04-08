@@ -85,7 +85,7 @@ def printInfo(URL, f):
         typeLandlord = container3.getText()
         residenceType = container3.next.next.getText()
 
-        f.write(ID + ";" + description + ";" + address + "; " +
+        f.write(ID + ";" + description.replace(";", ":") + ";" + address + "; " +
                 sqm + ";" + price + ";" + typeLandlord + ";" + residenceType + link + ";" + "\n")
 
         print(ID)
