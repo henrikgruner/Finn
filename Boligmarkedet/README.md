@@ -16,5 +16,4 @@ ID, Beskrivelse, Adresse, pris, kvadratmeter, pris per kvadratmeter, totalpris, 
 #### Kvadratmeterpris.csv
 Oppdateres hver gang programmer kjøres. Legger til gjennomsnittsprisene per kvadratmeter for hver av de fem største byene. 
 ##### Eksempel
-<img width="450" alt="Screen Shot 2020-04-08 at 11 43 41" src="https://user-images.githubusercontent.com/60741787/78770267-9fb55700-798e-11ea-9388-ac9f928ce5c5.png">
-
+<img width="516" alt="Screen Shot 2020-04-18 at 13 11 43" src="https://user-images.githubusercontent.com/60741787/79636184-309de680-8176-11ea-8134-31d2234efddd.png">
