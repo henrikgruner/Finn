@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup as soup
 import math
 import csv
 import datetime
+import pandas as pd
 
 
 def getURL(by):
@@ -153,8 +154,14 @@ def writeToFile(list, by):
     f = open(filename, "a+")
     list[:] = [int(item) for item in list if item != None]
     avg = sum(list)/len(list)
-    f.write(";" + str(round(avg)))
+    f.write(";" + str(round(avg)) + ";" + str(len(list)))
     f.close()
+
+
+def printAvgPrices():
+    filename = "../Data/Kvadratmeterpris" + ".csv"
+    f = pd.read_csv(filename, sep=";")
+    print(f)
 
 
 def main():
@@ -168,6 +175,7 @@ def main():
     f.close()
     for city in cities:
         exportData(city)
+    printAvgPrices()
 
 
 if __name__ == '__main__':
