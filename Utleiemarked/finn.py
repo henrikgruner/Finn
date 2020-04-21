@@ -98,6 +98,8 @@ def printInfo(URL, f):
         print(residenceType)
 
 
+
+
 print('\n')
 
 
