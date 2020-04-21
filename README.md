@@ -13,10 +13,11 @@ Eksempel på resultatene og hvilke attributter som hentes kan sees i hver respek
 
 
 #### Packages 
-Prosjektet bruker python3 og følgende pakker på installeres:
+Prosjektet bruker python3.7 og følgende pakker på installeres:
 
 ```
 pip install BeautifulSoup
 pip install urllib
+pip install pandas
 ```
 
